@@ -4,6 +4,11 @@
   font-family: "montserrat",sans-serif;
   box-sizing: border-box;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 .contact-section{
   background: url(Images/pexels-negative-space-33999.jpg) no-repeat center;
   background-size: cover;
@@ -128,3 +133,11 @@ textarea.contact-form-text{
  body{
    background-color: #2f3542;
  }
+
+ .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #ea7e6e;
+}
